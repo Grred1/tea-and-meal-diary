@@ -107,6 +107,7 @@ function selectDay(key) {
   render();
 }
 function reviewFor(item) {
+  if (item.id === 'heytea-rice-milk-tea-2026-11-05') return '../?entry=003-heytea-rice-milk-tea';
   return item.id === 'c33d137b-ce0f-4fc9-9471-19d587973373' && item.food.includes('薄荷黑巧') ? '../?entry=002-mint-chocolate' : null;
 }
 function render() {

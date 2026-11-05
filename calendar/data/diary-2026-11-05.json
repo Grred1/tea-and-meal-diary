@@ -1,7 +1,7 @@
 {
   "app": "fan-fan-diary",
   "version": 2,
-  "exportedAt": "2026-11-05T04:05:52.035Z",
+  "exportedAt": "2026-11-05T08:54:24.132636+00:00",
   "entries": [
     {
       "id": "breakfast-2026-10-26",
@@ -1005,6 +1005,60 @@
           "grams": 150,
           "customKcal100": null,
           "portionNote": "按描述中的可食重量，仍需确认是否去皮去核"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "heytea-rice-milk-tea-2026-11-05",
+      "date": "2026-11-05",
+      "meal": "snack",
+      "food": "喜茶手打米糯糯牛乳茶（少少甜·整杯）",
+      "calories": null,
+      "note": "暂归入加餐；照片标签：冰、少少甜、真0卡糖、不分装。已确认喝完整杯；杯型与该配置热量待确认；真0卡糖不代表整杯零热量。好喝但仍有点甜，甜茶搭配甜芋泥麻薯，甜味更明显。原照片与完整点评见关联味道日记。",
+      "estimated": false,
+      "original": {
+        "text": "这是喜茶的手打米糯糯牛乳茶少少甜\n帮我记录一下热量和味道\n\n好喝\n但是还是有点甜\n已经选了少少甜了\n吃东西的感觉没有芒果糯米饭爽\n而且因为茶是甜的、芋泥麻薯也是甜的\n喝甜的吃甜的就让甜味比较明显\n\n饮用量补充：整杯！",
+        "kind": "typed",
+        "capturedAt": "2026-11-05T08:51:32.401664+00:00"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "喜茶手打米糯糯牛乳茶（少少甜·整杯）",
+          "foodId": "",
+          "sticker": "tea",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "用户确认喝完整杯；杯型待确认。照片标签为冰、少少甜、真0卡糖、不分装"
+        }
+      ],
+      "calorieMethod": "unknown",
+      "calorieBasis": ""
+    },
+    {
+      "id": "malawangzi-2026-11-05",
+      "date": "2026-11-05",
+      "meal": "snack",
+      "food": "麻辣王子辣条（1小包·可能20g）",
+      "calories": 88,
+      "note": "暂按用户回忆可能20g × 同品牌参考440千卡/100g ≈88千卡，重量未确认、具体口味及包装标签未核对。参考：https://m.joybuy.fr/dp/10497879；此为估算，待实际标签修正。",
+      "estimated": true,
+      "original": {
+        "text": "今天还吃了一个麻辣王子的小小包的辣条\n重量补充：可能20g？",
+        "kind": "typed",
+        "capturedAt": "2026-11-05T08:54:24.132416+00:00"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "麻辣王子辣条（1小包·可能20g）",
+          "foodId": "",
+          "sticker": "plate",
+          "grams": 20,
+          "customKcal100": 440,
+          "portionNote": "用户回忆可能20g，未核对包装，重量仅暂估"
         }
       ],
       "calorieMethod": "manual",

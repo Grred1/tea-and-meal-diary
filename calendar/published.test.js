@@ -74,7 +74,7 @@ const total = entries => entries.reduce((sum, entry) => sum + entry.calories, 0)
 const expectedDays = {
   '2026-10-26': 1925, '2026-10-27': 1101, '2026-10-28': 630,
   '2026-10-29': 1972, '2026-10-30': 300, '2026-11-03': 1155,
-  '2026-11-04': 1324, '2026-11-05': 879
+  '2026-11-04': 1324, '2026-11-05': 967
 };
 
 (async () => {
@@ -85,16 +85,20 @@ const expectedDays = {
     'Validation must retain original text, parts, estimates, calorie values and basis.');
   await first.api.initializeDiary();
   assert.equal(first.api.storageBlocked, false);
-  assert.equal(first.api.entries.length, 29);
-  assert.equal(new Set(first.api.entries.map(entry => entry.id)).size, 29);
-  assert.equal(total(first.api.entries), 9286);
+  assert.equal(first.api.entries.length, 31);
+  assert.equal(new Set(first.api.entries.map(entry => entry.id)).size, 31);
+  assert.equal(total(first.api.entries), 9374);
   const dayTotals = {};
   for (const entry of first.api.entries) dayTotals[entry.date] = (dayTotals[entry.date] || 0) + entry.calories;
   assert.deepEqual(dayTotals, expectedDays);
   assert.equal(first.api.selectedDate, '2026-11-05');
-  assert.equal(first.nodes.get('day-calories').textContent, '879');
+  assert.equal(first.nodes.get('day-calories').textContent, '967');
   assert.deepEqual(JSON.parse(first.storage.get(storageKey)), {version: 2, entries: backup.entries});
   assert.equal(first.writes.length, 1, 'Initial publication should be saved exactly once.');
+
+  const unknownSnacks = first.api.entries.filter(entry => ['heytea-rice-milk-tea-2026-11-05'].includes(entry.id));
+  assert.equal(unknownSnacks.length, 1);
+  assert(unknownSnacks.every(entry => entry.calories === null && entry.calorieMethod === 'unknown'));
 
   const mint = first.api.entries.find(entry => entry.id === 'c33d137b-ce0f-4fc9-9471-19d587973373');
   assert(mint.food.includes('半杯约250ml'));
@@ -140,8 +144,8 @@ const expectedDays = {
   await importing.importBackup(backup);
   await importing.importBackup(backup);
   assert.deepEqual(plain(importing.api.entries), backup.entries);
-  assert.equal(importing.api.entries.length, 29);
-  assert.equal(total(importing.api.entries), 9286);
+  assert.equal(importing.api.entries.length, 31);
+  assert.equal(total(importing.api.entries), 9374);
   const extra = {...plain(backup.entries[0]), id: 'local-only', calories: 17, note: 'Keep this additional record.'};
   const withLocalChange = plain(backup.entries);
   withLocalChange[0].calories += 7;
@@ -150,13 +154,13 @@ const expectedDays = {
   await importing.importBackup(backup);
   assert.deepEqual(plain(importing.api.entries), [...backup.entries, extra],
     'Actual import must replace matching IDs and preserve other local entries.');
-  assert.equal(new Set(importing.api.entries.map(entry => entry.id)).size, 30);
-  assert.equal(total(importing.api.entries), 9303);
+  assert.equal(new Set(importing.api.entries.map(entry => entry.id)).size, 32);
+  assert.equal(total(importing.api.entries), 9391);
   assert.equal(importing.confirmations.length, 4);
 
   const invalidDate = createBrowser({search: '?date=2026-02-30'});
   await invalidDate.api.initializeDiary();
   assert.equal(invalidDate.api.selectedDate, invalidDate.api.today);
 
-  console.log('PASS: published JSON equality, 29 records / 9286 kcal, selected-day totals, retained fields, half-cup correction, refresh persistence, deleted/empty records, corrupt-storage protection and real ID-based import.');
+  console.log('PASS: published JSON equality, 31 records / 9374 known kcal, selected-day totals, retained fields, half-cup correction, refresh persistence, deleted/empty records, corrupt-storage protection and real ID-based import.');
 })().catch(error => { console.error(error); process.exitCode = 1; });

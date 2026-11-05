@@ -4,7 +4,7 @@ const list = document.querySelector('#entries');
 const search = document.querySelector('#search');
 const dialog = document.querySelector('#detail');
 // Only explicitly confirmed consumption dates connect a review to the food diary.
-const diaryDates = {'002-mint-chocolate': '2026-11-04'};
+const diaryDates = {'002-mint-chocolate': '2026-11-04', '003-heytea-rice-milk-tea': '2026-11-05'};
 function element(tag, className, text) {
   const node = document.createElement(tag);
   if (className) node.className = className;
