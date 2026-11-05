@@ -1,0 +1,1015 @@
+{
+  "app": "fan-fan-diary",
+  "version": 2,
+  "exportedAt": "2026-11-05T04:05:52.035Z",
+  "entries": [
+    {
+      "id": "breakfast-2026-10-26",
+      "date": "2026-10-26",
+      "meal": "breakfast",
+      "food": "猪扒包 + 纯玉米汁 + 菜包",
+      "calories": 750,
+      "note": "按你的记录，整份早餐合计 750 千卡。",
+      "estimated": true,
+      "original": {
+        "text": "猪扒包 + 纯玉米汁 + 菜包",
+        "kind": "legacy",
+        "capturedAt": null
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "猪扒包",
+          "foodId": "",
+          "sticker": "burger",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "纯玉米汁",
+          "foodId": "",
+          "sticker": "juice",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "菜包",
+          "foodId": "",
+          "sticker": "bun",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "d867019a-3950-44b6-91b1-746f15ad86d1",
+      "date": "2026-10-26",
+      "meal": "lunch",
+      "food": "香梨（1个）",
+      "calories": 50,
+      "note": "按小到中等香梨估算可食部120g，未称重；参考通用生梨42千卡/100g，约50千卡。此条仅记录午餐已经吃的1个，计划中的香梨另算。参考：https://school.eatsmart.gov.hk/en/content_joyful.aspx?id=6434",
+      "estimated": true,
+      "original": {
+        "text": "香梨（1个）",
+        "kind": "legacy",
+        "capturedAt": null
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "香梨（1个）",
+          "foodId": "pear",
+          "sticker": "pear",
+          "grams": 120,
+          "customKcal100": null,
+          "portionNote": "可食重量由用户填写 / 确认"
+        }
+      ],
+      "calorieMethod": "calculated",
+      "calorieBasis": "香梨（1个）：120 克 × 42 千卡 / 100 克 ≈ 50 千卡。可食重量由用户填写 / 确认。参考：香港卫生署：梨的营养资料（生梨（通用参考））"
+    },
+    {
+      "id": "c9de81aa-0de4-4d27-b627-6340f2ba0e96",
+      "date": "2026-10-26",
+      "meal": "dinner",
+      "food": "鱼豆腐（2小包）",
+      "calories": 62,
+      "note": "按你的要求估算：参考20g独立小包装，假设2包共40g，未称重。650kJ/100g÷4.184×0.4≈62千卡。重量参考：https://www.jinmofangfood.com/products/11.html；实际品牌及规格未确认。",
+      "estimated": true,
+      "original": {
+        "text": "鱼豆腐两小包，每100g 650卡",
+        "kind": "typed",
+        "capturedAt": "2026-10-26T05:58:05.078Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "鱼豆腐（2小包）",
+          "foodId": "",
+          "sticker": "fishTofu",
+          "grams": 40,
+          "customKcal100": 155.35,
+          "portionNote": "可食重量由用户填写 / 确认"
+        }
+      ],
+      "calorieMethod": "calculated",
+      "calorieBasis": "鱼豆腐（2小包）：40 克 × 155.35 千卡 / 100 克 ≈ 62 千卡。可食重量由用户填写 / 确认。参考：用户填写的包装标签 / 参考值（用户填写参考值）"
+    },
+    {
+      "id": "2fee232a-acdf-4464-8182-a3e2ef84066e",
+      "date": "2026-10-26",
+      "meal": "dinner",
+      "food": "爱辣鸡米（1包）",
+      "calories": 27,
+      "note": "按你的要求估算：参考爱辣鸡米10g独立小袋，假设吃了10g，未称重。1150kJ/100g÷4.184×0.1≈27千卡。重量参考：https://www.lingshi.us/products/wq-jtrd-200g；实际规格未确认。",
+      "estimated": true,
+      "original": {
+        "text": "还吃了一包爱辣鸡米，100g热量1150kj",
+        "kind": "typed",
+        "capturedAt": "2026-10-26T06:12:20.101Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "爱辣鸡米（1包）",
+          "foodId": "",
+          "sticker": "chickenBites",
+          "grams": 10,
+          "customKcal100": 274.86,
+          "portionNote": "可食重量由用户填写 / 确认"
+        }
+      ],
+      "calorieMethod": "calculated",
+      "calorieBasis": "爱辣鸡米（1包）：10 克 × 274.86 千卡 / 100 克 ≈ 27 千卡。可食重量由用户填写 / 确认。参考：用户填写的包装标签 / 参考值（用户填写参考值）"
+    },
+    {
+      "id": "53465abb-5d60-40ca-9e84-ce020d83095a",
+      "date": "2026-10-26",
+      "meal": "lunch",
+      "food": "减脂餐（1碗）",
+      "calories": 350,
+      "note": "按你提供的估算：一碗约350千卡；具体食材和份量未提供。",
+      "estimated": true,
+      "original": {
+        "text": "吃了一碗减脂餐大概350卡，还吃了半杯悦鲜活",
+        "kind": "typed",
+        "capturedAt": "2026-10-26T07:55:13.597Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "减脂餐（1碗）",
+          "foodId": "",
+          "sticker": "salad",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "0bcb503c-7fe3-47ed-a72a-1bf9bdd67eff",
+      "date": "2026-10-26",
+      "meal": "lunch",
+      "food": "悦鲜活鲜牛奶（半杯）",
+      "calories": 86,
+      "note": "半杯假设125mL（整杯250mL），未量取。参考悦鲜活同系列鲜奶287kJ/100mL，287÷4.184×1.25≈86千卡；具体款式及杯量未确认。参考：https://nlc.chinanutri.cn/food/r_pDaaYeSVuiZlkUsW1Sug.html",
+      "estimated": true,
+      "original": {
+        "text": "吃了一碗减脂餐大概350卡，还吃了半杯悦鲜活",
+        "kind": "typed",
+        "capturedAt": "2026-10-26T07:55:14.181Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "悦鲜活鲜牛奶（半杯）",
+          "foodId": "",
+          "sticker": "milk",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "32352751-333c-494f-992c-3ed970cf6e9d",
+      "date": "2026-10-26",
+      "meal": "dinner",
+      "food": "黑松露意面",
+      "calories": 600,
+      "note": "暂按普通一整份估算600千卡，份量与配方未确认；面量、奶油、芝士和用油会显著影响热量，粗估范围450–800千卡。本条只新增黑松露意面，爱辣鸡米和鱼豆腐已在原记录调整为晚餐。",
+      "estimated": true,
+      "original": {
+        "text": "爱辣鸡米+鱼豆腐两包+黑松露意面记为晚餐",
+        "kind": "typed",
+        "capturedAt": "2026-10-26T10:53:26.643Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "黑松露意面",
+          "foodId": "",
+          "sticker": "noodle",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "0ab2f618-7dc5-4b0b-8fcd-d6ce15cb3dce",
+      "date": "2026-10-27",
+      "meal": "breakfast",
+      "food": "香梨（1个） + 粉条包（1个） + 纯玉米汁（1杯）",
+      "calories": 370,
+      "note": "未称重，暂按普通份量估算：香梨可食部分约120g，50千卡；粉条包约90g，200千卡；纯玉米汁约250–300mL，按无额外糖、奶且含玉米约120g估120千卡。合计约370千卡；包子大小、馅料用油及玉米汁浓度会影响实际热量。",
+      "estimated": true,
+      "original": {
+        "text": "今天早餐：香梨1个+粉条包一个+纯玉米汁一杯",
+        "kind": "typed",
+        "capturedAt": "2026-10-27T02:10:59.994Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "香梨（1个）",
+          "foodId": "pear",
+          "sticker": "pear",
+          "grams": 120,
+          "customKcal100": null,
+          "portionNote": "可食重量由用户填写 / 确认"
+        },
+        {
+          "name": "粉条包（1个）",
+          "foodId": "",
+          "sticker": "bun",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "纯玉米汁（1杯）",
+          "foodId": "",
+          "sticker": "juice",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "51c50444-ad01-4703-be92-23895537a708",
+      "date": "2026-10-27",
+      "meal": "lunch",
+      "food": "鳗鱼杂粮饭（1份）",
+      "calories": 550,
+      "note": "用户补充：减脂餐，一碗杂粮饭，鳗鱼约一个手掌大。未称重，暂估整份550千卡，粗估500–650千卡；估算拆分：熟杂粮饭约220、鳗鱼约250、酱汁及配菜约80千卡。手掌面积不能确定重量，米饭碗大小、鳗鱼厚度及用油酱汁仍有不确定性。",
+      "estimated": true,
+      "original": {
+        "text": "午饭吃了一份鳗鱼杂粮饭，大概多少卡？",
+        "kind": "typed",
+        "capturedAt": "2026-10-27T09:03:26.847Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "鳗鱼杂粮饭（1份）",
+          "foodId": "",
+          "sticker": "rice",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "055fbb31-fb28-4ad4-9b13-7fb1f372697b",
+      "date": "2026-10-27",
+      "meal": "snack",
+      "food": "鸡胸肉肠（1根20g） + 悦鲜活（半杯） + 爱辣鸡米（2包）",
+      "calories": 181,
+      "note": "用户补充：鸡胸肉肠是20g的。沿用暂估200千卡/100g，20g约40千卡（非包装标签值）；悦鲜活半杯暂按125mL、287kJ/100mL估86千卡；爱辣鸡米按每包10g、共20g，1150kJ/100g÷4.184×0.2≈55千卡。合计181千卡。",
+      "estimated": true,
+      "original": {
+        "text": "下午零食：吃了一个鸡胸肉肠+半杯悦鲜活+两包爱辣鸡米",
+        "kind": "typed",
+        "capturedAt": "2026-10-27T09:03:37.087Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "鸡胸肉肠（1根20g）",
+          "foodId": "",
+          "sticker": "meat",
+          "grams": 20,
+          "customKcal100": null,
+          "portionNote": "按描述中的可食重量，仍需确认是否去皮去核"
+        },
+        {
+          "name": "悦鲜活（半杯）",
+          "foodId": "",
+          "sticker": "milk",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "爱辣鸡米（2包）",
+          "foodId": "",
+          "sticker": "chickenBites",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "12839b76-b2d3-4d9f-a620-0e71dbdc0e83",
+      "date": "2026-10-28",
+      "meal": "breakfast",
+      "food": "菜包（1个） + 玉米汁（1杯）",
+      "calories": 300,
+      "note": "原文“箭头”暂按“今天早餐”理解。未称重：普通菜包暂估180千卡；玉米汁沿用此前纯玉米汁的假设，约250–300mL、无额外糖奶，暂估120千卡；合计约300千卡。菜包大小、馅料用油及玉米汁浓度会影响实际热量。",
+      "estimated": true,
+      "original": {
+        "text": "箭头吃了一个菜包一杯玉米汁",
+        "kind": "typed",
+        "capturedAt": "2026-10-28T02:02:24.077Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "菜包（1个）",
+          "foodId": "",
+          "sticker": "bun",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "玉米汁（1杯）",
+          "foodId": "",
+          "sticker": "juice",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "cf4ee6e2-e730-4be2-8cc1-9df16d623f71",
+      "date": "2026-10-28",
+      "meal": "lunch",
+      "food": "零乳糖悦鲜活（1杯） + 牛肉干（2小包） + 玉米肠（38g）",
+      "calories": 330,
+      "note": "未核对包装标签：零乳糖悦鲜活暂按一杯250mL、约68千卡/100mL估170千卡；牛肉干暂按每小包10g，共20g、约350千卡/100g估70千卡；玉米肠38g为用户提供，暂按约237千卡/100g估90千卡。合计约330千卡；牛奶杯量与牛肉干净重需核对。",
+      "estimated": true,
+      "original": {
+        "text": "午餐：一杯零乳糖悦鲜活+两小包牛肉干+38g玉米肠，多少热量",
+        "kind": "typed",
+        "capturedAt": "2026-10-28T05:43:03.178Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "零乳糖悦鲜活（1杯）",
+          "foodId": "",
+          "sticker": "milk",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "牛肉干（2小包）",
+          "foodId": "",
+          "sticker": "meat",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "玉米肠（38g）",
+          "foodId": "",
+          "sticker": "meat",
+          "grams": 38,
+          "customKcal100": null,
+          "portionNote": "按描述中的可食重量，仍需确认是否去皮去核"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "5968eb3c-2048-4ec4-a4fb-965f6e7a7b90",
+      "date": "2026-10-29",
+      "meal": "breakfast",
+      "food": "玉米汁（1杯） + 蟹柳棒（全天6根）",
+      "calories": 210,
+      "note": "纯玉米汁1杯暂按250—300mL估120千卡；按用户最新要求，合并后的全天蟹柳棒6根统一放早餐，暂按共90g、100千卡/100g估90千卡。早餐合计210千卡；加餐已扣除对应90千卡，移动餐次不增加全天热量，原始描述保留。",
+      "estimated": true,
+      "original": {
+        "text": "早餐一杯玉米汁，两小根蟹柳",
+        "kind": "typed",
+        "capturedAt": "2026-10-29T02:09:11.809Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "玉米汁（1杯）",
+          "foodId": "",
+          "sticker": "juice",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "蟹柳棒（全天6根）",
+          "foodId": "",
+          "sticker": "plate",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "77695a04-22ef-46e0-92e1-5535e8d89e1e",
+      "date": "2026-10-29",
+      "meal": "snack",
+      "food": "爱辣鸡米（1包）",
+      "calories": 27,
+      "note": "爱辣鸡米暂按1包10g、1150kJ/100g估27千卡。原本这笔的猪肉干1小包（暂按10g、40千卡），已按用户要求并入全天猪肉干3小包的记录；原始描述保留，总热量不变。",
+      "estimated": true,
+      "original": {
+        "text": "一包鸡米一小包猪肉干",
+        "kind": "typed",
+        "capturedAt": "2026-10-29T02:10:35.809Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "爱辣鸡米（1包）",
+          "foodId": "",
+          "sticker": "chickenBites",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "79149463-34d4-474d-af07-d11a1abc8801",
+      "date": "2026-10-29",
+      "meal": "snack",
+      "food": "猪肉干（全天3小包） + 鱼豆腐（2个） + 芝士夹心饼干（1个） + 鲜奶（200mL）",
+      "calories": 414,
+      "note": "全天猪肉干3小包暂按30g估120千卡；鱼豆腐2个暂按40g、650kJ/100g估62千卡；芝士夹心饼干1个约12g估60千卡；鲜奶200mL、359kJ/100mL算172千卡。本笔414千卡。按用户最新要求，全天蟹柳6根（约90千卡）统一移到早餐，未重复计入；原始描述保留。",
+      "estimated": true,
+      "original": {
+        "text": "今天的加餐还有两包猪肉干+两个鱼豆腐+一个芝士夹心饼干+一杯200ml的每100ml359kj的鲜奶+4个蟹柳棒（不算当前登记的",
+        "kind": "typed",
+        "capturedAt": "2026-10-29T11:38:35.633Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "猪肉干（全天3小包）",
+          "foodId": "",
+          "sticker": "porkJerky",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "鱼豆腐（2个）",
+          "foodId": "",
+          "sticker": "fishTofu",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "芝士夹心饼干（1个）",
+          "foodId": "",
+          "sticker": "cookie",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "鲜奶（200mL）",
+          "foodId": "",
+          "sticker": "plate",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "87480d5c-dd5b-4a9a-b5b7-5f2e5010592b",
+      "date": "2026-10-29",
+      "meal": "dinner",
+      "food": "鸡蛋（2个） + 牛丼饭（1份）",
+      "calories": 800,
+      "note": "鸡蛋2个按无额外用油估150千卡；牛丼饭暂按普通一份估650千卡（饭量、牛肉肥瘦和酱汁未知，可能约550—800千卡）。晚餐暂记800千卡。",
+      "estimated": true,
+      "original": {
+        "text": "晚饭吃了两个鸡蛋+牛丼饭",
+        "kind": "typed",
+        "capturedAt": "2026-10-29T11:38:46.169Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "鸡蛋（2个）",
+          "foodId": "",
+          "sticker": "egg",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "牛丼饭（1份）",
+          "foodId": "",
+          "sticker": "rice",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "d106804e-7e02-48f9-ac83-0f63b3902792",
+      "date": "2026-10-29",
+      "meal": "lunch",
+      "food": "金枪鱼法棍（1个）",
+      "calories": 450,
+      "note": "尺寸、重量与酱料未知，暂按普通单人份金枪鱼法棍三明治估450千卡，粗估范围约350—600千卡。此为份量假设，并非包装标注；若是整根大法棍或酱料较多，需要上调。",
+      "estimated": true,
+      "original": {
+        "text": "午饭吃了一个金枪鱼法棍",
+        "kind": "typed",
+        "capturedAt": "2026-10-29T11:47:58.122Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "金枪鱼法棍（1个）",
+          "foodId": "",
+          "sticker": "toast",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "5adb5008-fc83-4361-aec3-b35229e4718a",
+      "date": "2026-10-29",
+      "meal": "lunch",
+      "food": "蓝莓（125g）",
+      "calories": 71,
+      "note": "按新鲜、未加糖蓝莓估算：每100g约57千卡，125g×57÷100≈71千卡。重量由用户提供，热量为通用参考估算。",
+      "estimated": true,
+      "original": {
+        "text": "蟹柳放到早餐，午餐还吃了125g蓝莓",
+        "kind": "typed",
+        "capturedAt": "2026-10-29T11:51:38.577Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "蓝莓（125g）",
+          "foodId": "",
+          "sticker": "blueberry",
+          "grams": 125,
+          "customKcal100": 57,
+          "portionNote": "可食重量由用户填写 / 确认"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "3c6511b4-6138-43e6-ad57-8c927f37575f",
+      "date": "2026-10-30",
+      "meal": "breakfast",
+      "food": "玉米汁（1杯） + 菜包（1个）",
+      "calories": 300,
+      "note": "沿用此前同款早餐的份量估算：纯玉米汁1杯（暂按250—300mL、无额外糖奶）约120千卡；普通菜包1个约180千卡。合计约300千卡；本次未提供具体份量，均为暂估。",
+      "estimated": true,
+      "original": {
+        "text": "今天早餐：玉米汁+菜包",
+        "kind": "typed",
+        "capturedAt": "2026-10-30T02:12:15.291Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "玉米汁（1杯）",
+          "foodId": "",
+          "sticker": "juice",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "菜包（1个）",
+          "foodId": "",
+          "sticker": "bun",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "d0542ba7-0555-43bd-b856-3ed572e7080d",
+      "date": "2026-11-03",
+      "meal": "snack",
+      "food": "每日坚果（1包）",
+      "calories": 150,
+      "note": "未提供品牌、净重和营养标签，暂按常见25g一包估150千卡；实际以包装为准。",
+      "estimated": true,
+      "original": {
+        "text": "还有一包每日坚果",
+        "kind": "typed",
+        "capturedAt": "2026-11-03T10:03:54.661Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "每日坚果（1包）",
+          "foodId": "",
+          "sticker": "plate",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "a241e4b7-b200-4d46-b859-41a7f5183881",
+      "date": "2026-11-03",
+      "meal": "breakfast",
+      "food": "玉米汁（300ml） + 粉条包（1个）",
+      "calories": 340,
+      "note": "餐次暂按早餐归类，用户尚未指定。按用户表格区间中值：玉米汁140千卡、粉条包200千卡，合计340千卡，范围250—430千卡。",
+      "estimated": true,
+      "original": {
+        "text": "用户表格：玉米汁｜300ml｜100～180 千卡；粉条包｜1个｜150～250 千卡。",
+        "kind": "typed",
+        "capturedAt": "2026-11-03T10:04:42.913Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "玉米汁（300ml）",
+          "foodId": "",
+          "sticker": "juice",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "粉条包（1个）",
+          "foodId": "",
+          "sticker": "noodle",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "1bfdefff-72f3-455f-9a57-bd64e9abe0be",
+      "date": "2026-11-03",
+      "meal": "lunch",
+      "food": "减脂餐（1份） + 杂粮饭（熟重50g）",
+      "calories": 460,
+      "note": "餐次暂按午餐归类，用户尚未指定。沿用用户提供的热量：减脂餐400千卡、杂粮饭60千卡，合计460千卡。按表格将杂粮饭视为单独一项，若已包含在减脂餐400千卡内需扣除60千卡。",
+      "estimated": true,
+      "original": {
+        "text": "用户表格：减脂餐｜1份｜400 千卡；杂粮饭｜熟重50g｜约60 千卡。",
+        "kind": "typed",
+        "capturedAt": "2026-11-03T10:05:00.553Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "减脂餐（1份）",
+          "foodId": "",
+          "sticker": "salad",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "杂粮饭（熟重50g）",
+          "foodId": "",
+          "sticker": "rice",
+          "grams": 50,
+          "customKcal100": null,
+          "portionNote": "按描述中的可食重量，仍需确认是否去皮去核"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "f071f089-aa1b-4ec5-b32f-32a428b298c8",
+      "date": "2026-11-03",
+      "meal": "snack",
+      "food": "酱板鸭零食（3个共15g） + 鸡胸肉（50g） + 悦鲜活0乳糖（1瓶） + 果汁（125ml）",
+      "calories": 205,
+      "note": "餐次暂归加餐，用户尚未指定。沿用表格：酱板鸭区间中值40千卡，鸡胸肉50千卡，悦鲜活0乳糖60千卡（瓶容量未提供），果汁125×184/100÷4.184≈55千卡。合计205千卡；每日坚果已另记150千卡，不重复计算。",
+      "estimated": true,
+      "original": {
+        "text": "用户表格：酱板鸭零食｜3个，共15g｜30～50 千卡；鸡胸肉｜50g｜约50 千卡；悦鲜活0乳糖｜1瓶｜约60 千卡；果汁｜125ml，184kJ/100ml｜约55 千卡。表格合计约905～1105千卡，另有一包每日坚果。",
+        "kind": "typed",
+        "capturedAt": "2026-11-03T10:05:10.713Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "酱板鸭零食（3个共15g）",
+          "foodId": "",
+          "sticker": "plate",
+          "grams": 15,
+          "customKcal100": null,
+          "portionNote": "按描述中的可食重量，仍需确认是否去皮去核"
+        },
+        {
+          "name": "鸡胸肉（50g）",
+          "foodId": "",
+          "sticker": "meat",
+          "grams": 50,
+          "customKcal100": null,
+          "portionNote": "按描述中的可食重量，仍需确认是否去皮去核"
+        },
+        {
+          "name": "悦鲜活0乳糖（1瓶）",
+          "foodId": "",
+          "sticker": "milk",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "果汁（125ml）",
+          "foodId": "",
+          "sticker": "juice",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "948a45a1-8441-4e00-8a24-1d71c402f296",
+      "date": "2026-11-04",
+      "meal": "breakfast",
+      "food": "九阳含糖豆浆（300ml） + 菜包（1个）",
+      "calories": 311,
+      "note": "根据本日对话及“今天还吃了”补记早餐。豆浆沿用用户提供364kJ×1.5÷4.184≈130.5千卡，四舍五入131千卡；菜包1个暂估180千卡，合计311千卡。",
+      "estimated": true,
+      "original": {
+        "text": "300ml豆浆（含糖，九阳豆浆粉）+一个菜包大概多少卡\n364kj*1.5大概多少卡？",
+        "kind": "typed",
+        "capturedAt": "2026-11-04T05:47:19.504Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "九阳含糖豆浆（300ml）",
+          "foodId": "",
+          "sticker": "juice",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "菜包（1个）",
+          "foodId": "",
+          "sticker": "bun",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "c33d137b-ce0f-4fc9-9471-19d587973373",
+      "date": "2026-11-04",
+      "meal": "snack",
+      "food": "鸡胸肉 + 凤爪 + 全麦吐司（2小片） + 薄荷黑巧少甜（半杯约250ml）",
+      "calories": 403,
+      "note": "用户补充：奶茶只喝半杯就扔了，太甜。鸡胸肉58千卡、凤爪50千卡按给值；全麦吐司2小片暂估120千卡；韩国冰奶薄荷黑巧原约500ml整杯估350千卡，实际半杯暂估175千卡。合计403千卡。首次原始描述保留，餐次暂归加餐。",
+      "estimated": true,
+      "original": {
+        "text": "今天还吃了58卡的鸡胸肉、50卡的风爪、两小片全麦吐司、一杯薄荷黑巧少甜\n饮品补充：韩国冰奶的，500ml的应该是",
+        "kind": "typed",
+        "capturedAt": "2026-11-04T05:47:42.130Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "鸡胸肉",
+          "foodId": "",
+          "sticker": "meat",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "凤爪",
+          "foodId": "",
+          "sticker": "plate",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "全麦吐司（2小片）",
+          "foodId": "",
+          "sticker": "toast",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "薄荷黑巧少甜（半杯约250ml）",
+          "foodId": "",
+          "sticker": "plate",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "6c22c7d1-49f1-41d7-9b04-87818dfb27e0",
+      "date": "2026-11-04",
+      "meal": "dinner",
+      "food": "酥酥多笋卷（1个） + 小薯条（1份） + 无糖可乐麦炫酷（1杯）",
+      "calories": 610,
+      "note": "补记已确认吃过的11月4日晚餐。沿用此前估算：酥酥多笋卷342千卡（第三方资料）、小薯条226千卡（官网）、无糖可乐麦炫酷约40千卡（含冰淇淋，非零卡；第三方估算）。合计608千卡，按此前约数记610千卡。",
+      "estimated": true,
+      "original": {
+        "text": "酥酥多笋卷＋小薯条＋无糖可乐麦炫酷。2026年11月5日用户确认：昨晚已经吃了。",
+        "kind": "typed",
+        "capturedAt": "2026-11-05T04:00:54.296Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "酥酥多笋卷（1个）",
+          "foodId": "",
+          "sticker": "plate",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "小薯条（1份）",
+          "foodId": "",
+          "sticker": "plate",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "无糖可乐麦炫酷（1杯）",
+          "foodId": "",
+          "sticker": "plate",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "0a49f043-552a-4988-a7b3-b8ac5b5c844b",
+      "date": "2026-11-05",
+      "meal": "lunch",
+      "food": "小香梨（1个）",
+      "calories": 50,
+      "note": "11月5日11点吃的小香梨1个，按用户最新分餐归午餐。暂按可食部分约120g估50千卡，未称重。",
+      "estimated": true,
+      "original": {
+        "text": "11点吃了小香梨一个",
+        "kind": "typed",
+        "capturedAt": "2026-11-05T04:01:20.860Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "小香梨（1个）",
+          "foodId": "pear",
+          "sticker": "pear",
+          "grams": 100,
+          "customKcal100": null,
+          "portionNote": "暂按小梨可食部 100 克 / 个，品种和大小需核对（估算）"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "confirmed-breakfast-2026-11-05",
+      "date": "2026-11-05",
+      "meal": "breakfast",
+      "food": "麦当劳大豆浆（1杯） + 脆薯饼（1块）",
+      "calories": 348,
+      "note": "按本日对话确认早餐。沿用麦当劳中国官网标准份量：大杯优品豆浆844kJ≈202千卡，脆薯饼612kJ≈146千卡，合计348千卡。",
+      "estimated": true,
+      "original": {
+        "text": "今天可以这样划分\n早餐：豆浆+薯饼\n午餐：高达芝士蛋堡+小香梨+150g每100g364kj的华农酸奶",
+        "kind": "typed",
+        "capturedAt": "2026-11-05T04:05:52.031Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "麦当劳大豆浆（1杯）",
+          "foodId": "",
+          "sticker": "juice",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "脆薯饼（1块）",
+          "foodId": "",
+          "sticker": "plate",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    },
+    {
+      "id": "confirmed-lunch-2026-11-05",
+      "date": "2026-11-05",
+      "meal": "lunch",
+      "food": "高达芝士蛋堡（1个） + 华农酸奶（150g）",
+      "calories": 481,
+      "note": "高达芝士蛋堡未查到准确品名对应的官方营养资料，暂按普通芝士蛋堡估350千卡（份量、配方待核对）；华农酸奶按用户标签150g×364kJ/100g÷4.184≈131千卡，本笔481千卡。小香梨50千卡已单独归入午餐，不重复计入。",
+      "estimated": true,
+      "original": {
+        "text": "今天可以这样划分\n早餐：豆浆+薯饼\n午餐：高达芝士蛋堡+小香梨+150g每100g364kj的华农酸奶",
+        "kind": "typed",
+        "capturedAt": "2026-11-05T04:05:52.034Z"
+      },
+      "photos": [],
+      "parts": [
+        {
+          "name": "高达芝士蛋堡（1个）",
+          "foodId": "",
+          "sticker": "burger",
+          "grams": null,
+          "customKcal100": null,
+          "portionNote": "请补充可食重量或手动填写热量"
+        },
+        {
+          "name": "华农酸奶（150g）",
+          "foodId": "",
+          "sticker": "milk",
+          "grams": 150,
+          "customKcal100": null,
+          "portionNote": "按描述中的可食重量，仍需确认是否去皮去核"
+        }
+      ],
+      "calorieMethod": "manual",
+      "calorieBasis": ""
+    }
+  ],
+  "photos": []
+}

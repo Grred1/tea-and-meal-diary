@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ed">
+  <title>饮食日历 · 奶茶和干饭日记</title>
+  <link rel="stylesheet" href="styles.css?v=105998a3cf">
+  <script src="stickers.js?v=fd48c6e479" defer></script>
+  <script src="nutrition.js?v=15c80690b4" defer></script>
+  <script src="photos.js?v=681fde21b6" defer></script>
+  <script src="published-data.js?v=20261105" defer></script>
+  <script src="app.js?v=7abafbb6fc" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="饭饭日记首页"><span class="brand-mark">🍳</span><span>一口备忘录<small>A LITTLE FOOD DIARY</small></span></a>
+      <nav class="diary-nav" aria-label="日记导航"><a href="../">味道日记</a><a href="./" aria-current="page">饮食日历</a></nav>
+      <div class="header-actions"><span class="local-badge"><i></i> 我的小本本</span><button class="text-button" id="export-button">↓ 导出记录</button><button class="text-button" id="import-button">↑ 导入</button><input id="import-file" type="file" accept="application/json,.json" hidden></div>
+    </header>
+
+    <main>
+      <section class="welcome" aria-labelledby="welcome-title">
+        <div class="welcome-copy"><span class="eyebrow">把每一餐，变成小小的日常收藏</span><h1 id="welcome-title">今天吃了什么呀？<span class="sparkle">✦</span></h1><p>把吃过的小美味，一张张贴进日子里。</p><button id="hero-add" class="primary-button"><span>＋</span> 记一笔好吃的</button></div>
+        <div class="welcome-art" aria-hidden="true">
+          <span class="art-note">每一口，都想记住 ♡</span>
+          <svg viewBox="0 0 360 230" class="food-friends"><ellipse cx="181" cy="202" rx="133" ry="13" fill="#dfdfca"/><path d="M64 158q-30-42 2-82 32-22 52 9 14-28 45-9 39 35 5 85z" fill="#89a983" stroke="#37574a" stroke-width="3"/><path d="m99 161-3-49m-1 26-20-16m22 3 22-21" fill="none" stroke="#37574a" stroke-width="3" stroke-linecap="round"/><path d="M97 138q80-17 166 0l-20 51q-61 31-122 0z" fill="#f7f5e9" stroke="#37574a" stroke-width="3"/><ellipse cx="179" cy="137" rx="84" ry="20" fill="#fffdf7" stroke="#37574a" stroke-width="3"/><path d="M116 128q-2-24 21-29-3-24 23-24 14-22 34-5 26-8 31 18 29 0 28 29 16 20-11 32-29 12-55 1-43 10-65-7z" fill="#fffef5" stroke="#37574a" stroke-width="3"/><circle cx="186" cy="110" r="29" fill="#f7c75e"/><circle cx="176" cy="109" r="3" fill="#37574a"/><circle cx="196" cy="109" r="3" fill="#37574a"/><path d="M181 119q5 6 10 0" fill="none" stroke="#37574a" stroke-width="2.5" stroke-linecap="round"/><ellipse cx="168" cy="118" rx="5" ry="3" fill="#efa37c"/><ellipse cx="204" cy="118" rx="5" ry="3" fill="#efa37c"/><path d="m255 157 18-63 19-5 12 15-27 61z" fill="#ec9974" stroke="#37574a" stroke-width="3"/><path d="m280 91-4-19m7 16 11-17" stroke="#6a9164" stroke-width="5" stroke-linecap="round"/><path d="m272 112 10 5m-17 10 10 5" stroke="#b46c4e" stroke-width="2" stroke-linecap="round"/><path d="m45 56 4-11 4 11 11 4-11 4-4 11-4-11-11-4z" fill="#e6b655"/><path d="m305 147 3-8 3 8 8 3-8 3-3 8-3-8-8-3z" fill="#e6b655"/><path d="m231 40 5 8m-2-20 10 3" stroke="#c98a65" stroke-width="3" stroke-linecap="round"/></svg>
+        </div>
+      </section>
+
+      <p class="published-note">已收录公开的历史饮食记录。新增和修改仅保存在此浏览器，导出备份后可再发布。 <a href="data/diary-2026-11-05.json" download>下载已发布备份 ↗</a></p>
+      <div class="scrapbook-intro"><span>✦ 我的美味收藏册</span><span id="month-caption"></span></div>
+
+      <div class="workspace">
+        <section class="calendar-panel panel" aria-label="饮食日历">
+          <div class="panel-header"><div><span class="eyebrow small">A MONTH OF LITTLE BITES</span><div class="month-title"><h2 id="month-title"></h2><span id="month-english"></span></div></div><div class="calendar-controls"><button id="previous-month" class="icon-button" aria-label="上个月">‹</button><button id="today-button" class="today-button">今天</button><button id="next-month" class="icon-button" aria-label="下个月">›</button></div></div>
+          <div class="weekdays" aria-hidden="true"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+          <div id="calendar-grid" class="calendar-grid"></div>
+          <div class="calendar-footer"><span>♡ 把好吃的，贴在日历上</span><span>点一天，看看那天吃了什么 ↗</span></div>
+        </section>
+
+        <aside class="day-panel panel" aria-labelledby="selected-date-title">
+          <div class="day-heading"><div><span id="day-weekday" class="eyebrow small"></span><h2 id="selected-date-title"></h2></div><span class="date-sticker" aria-hidden="true">♡</span></div>
+          <p class="table-caption">这一天的小餐桌 <span>YUMMY MEMORIES</span></p>
+          <div id="meal-list" class="meal-list"></div>
+          <div class="day-total"><span>已记热量 <strong id="day-calories">—</strong> 千卡</span><p id="day-entry-count"></p></div>
+          <button id="day-add" class="outline-button">＋ 添加一餐 / 加餐</button>
+          <p class="gentle-note">吃过的小美味，都是生活的纪念。 ♡</p>
+        </aside>
+      </div>
+
+      <section class="week-panel panel" aria-labelledby="week-title"><div class="week-intro"><div><span class="eyebrow small">SEVEN LITTLE PAGES</span><h2 id="week-title">这一周，吃得有滋有味</h2></div><p id="week-range"></p></div><div id="week-chart" class="week-chart" aria-label="所选日期所在周的食物手账"></div></section>
+      <footer class="page-footer"><span>🍞 饭饭日记 · 好好吃饭，好好生活</span><span id="save-status" role="status">记录保存在当前浏览器 · 建议定期导出备份</span></footer>
+    </main>
+  </div>
+
+  <dialog id="entry-dialog" aria-labelledby="dialog-title">
+    <form id="entry-form">
+      <div class="dialog-header"><div><span class="eyebrow small">A TASTY LITTLE MEMORY</span><h2 id="dialog-title">记一笔好吃的 🍽️</h2></div><button type="button" class="icon-button" id="close-dialog" aria-label="关闭">×</button></div>
+      <div class="form-row"><label>日期<input type="date" id="entry-date" required min="1900-01-01" max="2100-12-31"></label><label>哪一餐<select id="entry-meal"><option value="breakfast">🌤️ 早餐</option><option value="lunch">🍱 午餐</option><option value="dinner">🌙 晚餐</option><option value="snack">🍪 加餐 / 饮品</option></select></label></div>
+      <section class="original-input"><label for="entry-original">原始描述 <span class="label-hint">会原样保存</span></label><textarea id="entry-original" maxlength="2000" rows="2" placeholder="例如：今天午餐还吃了一个香梨"></textarea>
+      <div class="photo-upload-row"><button type="button" id="add-photo" class="outline-button">＋ 保存原照片</button><span>JPG / PNG / WebP · 每张 ≤10MB</span></div><input type="file" id="photo-files" accept="image/jpeg,image/png,image/webp" multiple hidden><div id="photo-preview" class="photo-preview"></div><p class="source-hint">照片仅保存在本地浏览器，不压缩。可以先存照片，再确认名称。</p></section>
+      <label>吃了什么<input id="entry-food" type="text" maxlength="120" placeholder="例如：香梨（1个）；也可以先只存照片"></label>
+      <p class="food-input-hint">用 + 或顿号分开食物，就会变成一张张小贴纸。</p>
+      <div id="sticker-preview" class="sticker-preview" aria-label="食物贴纸预览"></div>
+      <details id="portion-details" class="portion-details"><summary>贴图与热量估算 <span>可修改食物、重量和贴图</span></summary><div id="portion-editor"></div><div class="estimate-result"><p id="estimate-summary"></p><button type="button" id="apply-estimate" class="outline-button">采用这个估算</button></div><p class="source-hint">按可食重量计算；只有全部食物都有依据，才填入整笔热量。照片本身不会自动换算重量。</p></details>
+      <label>热量 <span class="label-hint">选填 · 这一笔合计千卡 / kcal</span><input id="entry-calories" type="number" inputmode="numeric" min="0" max="20000" step="1" placeholder="不知道也可以先空着"></label>
+      <div class="calorie-kind"><label><input type="checkbox" id="entry-estimated" checked> 这是估算热量</label><span>按标签或自己的估算填写就好</span></div>
+      <label>小备注 <span class="label-hint">选填</span><textarea id="entry-note" maxlength="240" rows="2" placeholder="份量、糖度，或者今天的小心情…"></textarea></label>
+      <p id="calorie-basis" class="source-hint"></p>
+      <p id="form-error" class="form-error" role="alert"></p>
+      <div class="dialog-actions"><button type="button" class="text-button" id="cancel-dialog">先不记</button><button type="submit" id="save-entry" class="primary-button">保存这份美味 ✓</button></div>
+    </form>
+  </dialog>
+  <dialog id="source-dialog" aria-labelledby="source-title"><div class="dialog-header"><div><span class="eyebrow small">THE ORIGINAL MEMORY</span><h2 id="source-title">这份美味的原始记录</h2></div><button type="button" id="close-source" class="icon-button" aria-label="关闭原始记录">×</button></div><div id="source-content"></div></dialog>
+  <div id="toast" class="toast" role="status" hidden><span id="toast-text"></span><button id="undo-button" hidden>撤销</button></div>
+</body>
+</html>

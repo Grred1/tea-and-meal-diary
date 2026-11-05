@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f7f5ed"><title>一口备忘录 · 奶茶和干饭日记</title><link rel="stylesheet" href="style.css"><script defer src="data.js"></script><script defer src="app.js"></script></head>
 <body>
-<header class="topbar"><a class="brand" href="./"><span class="logo">食</span>一口备忘录<span class="brand-note">TASTE NOTES</span></a><a class="repo" href="https://github.com/Grred1/tea-and-meal-diary">我的 GitHub ↗</a></header>
+<header class="topbar"><a class="brand" href="./"><span class="logo">食</span>一口备忘录<span class="brand-note">TASTE NOTES</span></a><nav class="diary-nav" aria-label="日记导航"><a href="./" aria-current="page">味道日记</a><a href="calendar/">饮食日历</a></nav><a class="repo" href="https://github.com/Grred1/tea-and-meal-diary">我的 GitHub ↗</a></header>
 <main>
 <section class="intro"><div><p class="eyebrow">MY LITTLE FOOD DIARY / 吃喝有记性</p><h1>别让嘴巴，<br>替记忆再踩一次雷<span>。</span></h1><p class="description">有些味道，值得想念。<br>有些味道，值得记下来提醒自己。</p></div><aside class="memo"><span class="pin">✳</span><p class="eyebrow">写给下次点单的我</p><p>「上次好像还行？」<br>先等等，<br><em>翻翻日记再说。</em></p><span class="memo-foot">记性不好，就让记录好一点。 ↙</span></aside></section>
 <section class="collection" aria-label="日记列表"><div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2>我的吃喝档案 <span id="total"></span></h2></div><span class="small-note">真实感受，比漂亮评分更重要。</span></div>
@@ -10,5 +10,5 @@
 <p id="result-count" class="result-count" aria-live="polite"></p><div id="entries" class="entries"></div><div id="empty" class="empty" hidden><span>◡</span><h3>这一页，还没有味道。</h3><p>换个关键词试试，或留给下一顿饭、下一杯茶。</p><button id="reset">查看全部记录</button></div>
 </section><footer><span>一口备忘录 · 始于 2026</span><span>吃过就记，忘了就翻。</span></footer>
 </main>
-<dialog id="detail"><button class="close" aria-label="关闭详情">×</button><div id="detail-content"></div></dialog>
+<dialog id="detail" aria-labelledby="detail-title"><button class="close" aria-label="关闭详情">×</button><div id="detail-content"></div></dialog>
 </body></html>
